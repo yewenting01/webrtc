@@ -89,13 +89,13 @@ export default {
       pcConfig: {
         'iceServers': [
           {
-            'url': 'stun:stun.l.google.com:19302'
+            'url': 'stun:192.168.121.134:3478'
           },
-          {
-            'url': 'turn:120.77.253.101:3478',
-            'username': 'inter_user',
-            'credential': 'power_turn'
-          }
+          //{
+            //'url': 'turn:120.77.253.101:3478',
+            //'username': 'inter_user',
+            //'credential': 'power_turn'
+          //}
         ]
       },
       offerOptions: {
